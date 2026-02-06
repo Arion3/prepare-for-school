@@ -1,7 +1,10 @@
 #include <stdio.h>
-#Тест просто
-int main()
+int main(void)
 {
-    printf("Hello world");
-    return 0;
+    int a, b, res;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    res = a + b;
+    printf("%d + %d = %d\n", a, b, res);
+    return (0);
 }
