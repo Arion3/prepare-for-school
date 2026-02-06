@@ -8,6 +8,6 @@ int main(void)
 
     res = a + b;
     printf("%d + %d = %d\n", a, b, res);
-
+    system("pause");
     return 0;
 }
