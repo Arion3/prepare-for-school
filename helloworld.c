@@ -1,7 +1,12 @@
 #include <stdio.h>
-#Тест просто
-int main()
+int main(void)
 {
-    printf("Hello world");
-    return 0;
+    for (int i = 1; i <= 5; i++)
+    {
+        for (int j = 1; j <= 5; j++)
+            printf("%-5d", i * j);
+        printf("\n");
+    }
+
+    return (0);
 }
